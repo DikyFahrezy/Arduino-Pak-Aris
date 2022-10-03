@@ -11,9 +11,4 @@ void loop() {
    analogWrite(11,i);
    delay(100);
   }
-  for (int i=255;i>=0;i--){
-   digitalWrite(8,LOW);
-   analogWrite(11,i);
-   delay(100);
-  }
 }
